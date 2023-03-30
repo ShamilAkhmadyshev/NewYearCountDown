@@ -1,6 +1,5 @@
 const countDown = () => {
     const year = new Date().getFullYear() + 1;
-    console.log(year)
     const countDate = new Date(`January 1, ${year} 00:00:00`).getTime();
     const nowDate = new Date().getTime();
     const gap = countDate - nowDate;
